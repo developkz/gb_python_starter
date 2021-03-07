@@ -7,10 +7,10 @@
 """
 
 
-# duration = int(input('Введите количество секунд: ')) #вводим количество минут
-# sec = (duration % 3600) % 60 #извлекаем остаток секунд
-# minute = (duration % 3600) // 60 #извлекаем минуты
-# hour = duration // 3600 #часы
-# print('до минуты:', sec, 'сек;')
-# print('до часа:', minute, 'мин', sec, 'сек;')
-# print('до суток:', hour, 'час', minute, 'мин', sec, 'сек;')
+duration = int(input('duration = '))  #вводим количество минут
+sec = (duration % 3600) % 60  #извлекаем остаток секунд
+minute = (duration % 3600) // 60  #извлекаем минуты
+hour = duration // 3600  #извлекаем часы
+print(sec, 'сек;')
+print(minute, 'мин', sec, 'сек;')
+print(hour, 'час', minute, 'мин', sec, 'сек;')

@@ -25,4 +25,7 @@ def currency_rates(code):
             return float(i.replace('/', '').split('<Value>')[-2].replace(',', '.'))
 
 
-print(currency_rates('Eur'))
+if __name__ == '__main__':
+    print(currency_rates('Eur'))
+    print(currency_rates('uSd'))
+    print(currency_rates('Rub'))
